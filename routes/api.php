@@ -21,4 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //API Factor Energía 
 Route::get('/info', [App\Http\Controllers\ApiFactorEnergia::class, 'info'])->name('info');
 Route::get('/random', [App\Http\Controllers\ApiFactorEnergia::class, 'random'])->name('random');
-Route::get('/getQuestions', [App\Http\Controllers\ApiFactorEnergia::class, 'getQuestions']);
+Route::get('/getQuestions', [App\Http\Controllers\ApiFactorEnergia::class, 'getQuestions'])->name('getQuestions');
