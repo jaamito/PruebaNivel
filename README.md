@@ -11,7 +11,7 @@
 
 Api que se conecta a la api Stack Exchange y obtiene información de la consulta https://api.stackexchange.com/2.3/questions?site=stackoverflow, he creado 3 URL en la api que son las siguientes:
 
-- /api/info: muestra las url conun poco de información y un acceso directo para probarlas.
+- /api/info: muestra las url con información sobre cada URL y un acceso directo para probarlas.
 - /api/random: muestra de forma random consultas a la api de StackExchange.
 - /api/getQuestions?tagged=php&fromdate=1293840000&todate=1294444800": muestra consultas con 3 filtros, recuerda que el filtro Tagged es obligatorio, sin ese filtro la consulta no funcionará.
 
